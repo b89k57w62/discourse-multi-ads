@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
+  overflow: hidden;
 }
 
 .gb-ad-stack a + a {
@@ -12,25 +13,35 @@
 
 .gb-ad-stack a {
   width: 100%;
+  max-width: 720px;
   text-align: center;
+  display: block;
 }
 
 .gb-ad-stack img {
   display: block;
   max-width: 100%;
+  width: auto;
   height: auto;
   margin: 0 auto;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
+  .gb-ad-stack a {
+    max-width: 95%;
+  }
   .gb-ad-stack img {
-    width: 95%;
+    width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   .gb-ad-stack a + a {
     margin-top: 8px;
+  }
+  .gb-ad-stack a {
+    max-width: 90%;
   }
 }
