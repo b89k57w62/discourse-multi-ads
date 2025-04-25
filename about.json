@@ -1,0 +1,10 @@
+{
+    "name": "Multi House Ads on Topic List",
+    "version": "0.0.1",
+    "authors": "Wu Hao Sheng <wu19930628@gmail.com>",
+    "license_url": "https://opensource.org/licenses/MIT",
+    "minimum_discourse_version": "3.0.0",
+    "components": [],
+    "description": "insert multi House Ads with discovery-list-container.top"
+  }
+  
