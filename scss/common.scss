@@ -1,4 +1,9 @@
-.gb-ad-stack .house-ad + .house-ad { margin-top: 12px; }
-@media (max-width: 600px) {
-  .gb-ad-stack .house-ad img { max-width: 100%; height: auto; }
+.gb-ad-stack a + a {
+  margin-top: 12px;
+}
+
+.gb-ad-stack img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
