@@ -1,12 +1,29 @@
 <div class="gb-ad-stack">
-  {{ad-slot placement="topic-list-top"}}
-  {{ad-slot placement="topic-list-top2"}}
-  {{ad-slot placement="topic-list-top3"}}
-  {{ad-slot placement="topic-list-top4"}}
-  {{ad-slot placement="topic-list-top5"}}
-  {{ad-slot placement="topic-list-top6"}}
-  {{ad-slot placement="topic-list-top7"}}
-  {{ad-slot placement="topic-list-top8"}}
-  {{ad-slot placement="topic-list-top9"}}
-  {{ad-slot placement="topic-list-top10"}}
+  {{#if this.site.house_creatives.settings.topic_list_top2}}
+    {{ad-slot placement="topic-list-top2"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top3}}
+    {{ad-slot placement="topic-list-top3"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top4}}
+    {{ad-slot placement="topic-list-top4"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top5}}
+    {{ad-slot placement="topic-list-top5"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top6}}
+    {{ad-slot placement="topic-list-top6"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top7}}
+    {{ad-slot placement="topic-list-top7"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top8}}
+    {{ad-slot placement="topic-list-top8"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top9}}
+    {{ad-slot placement="topic-list-top9"}}
+  {{/if}}
+  {{#if this.site.house_creatives.settings.topic_list_top10}}
+    {{ad-slot placement="topic-list-top10"}}
+  {{/if}}
 </div>
